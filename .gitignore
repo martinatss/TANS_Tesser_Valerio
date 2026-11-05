@@ -1,0 +1,10 @@
+# VS Code
+.vscode/
+
+# File ROOT (tranne kinem.root nella root del repository, usato in input da Simulation.C)
+*.root
+!/kinem.root
+
+# File non binari generati da ACLiC (i *.so restano tracciabili)
+*.d
+*.pcm
