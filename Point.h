@@ -1,8 +1,6 @@
 #ifndef POINT_H //istruzioni di precompilazione: if not defined -> define -> end if
 #define POINT_H
 
-#include "TObject.h" // con le virgolette perché non sono della standard library creata da root
-#include <cmath>
 
 class Point: public TObject{ //qui diciamo che Point è figlio di TObject (public perché è difficile ereditare cose private)
     public:
